@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "description": "A snap to manage your Edgeware accounts and send tokens. View and sign transactions on Edgeware with MetaMask.",
+  "proposedName": "EdgeMask Wallet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranavcpawar/edgemask-wallet.git"
+  },
+  "source": {
+    "shasum": "6UKNb5tevXdIni33RLcmckhoiur4pw66Fsxm8JcYlA4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "@edgemask-wallet/snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
