@@ -24,7 +24,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-shadow': [
           'error',
-          { allow: ['describe', 'expect', 'it'] },
+          { allow: ['describe', 'expect', 'it', 'Text'] },
         ],
       },
     },
